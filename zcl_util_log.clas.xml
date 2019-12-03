@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Util - Log de Aplicaciones</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>H01</KEY>
+     <ENTRY>Tipo</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>H02</KEY>
+     <ENTRY>Mensaje</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAPIRET2 al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_BAPIRET2_T</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensajes tipo BAPIRET2 al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_HEADER_PARAMETER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir parámetro de cabecera de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAL_S_MSG al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje por variables al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>BALM_2_BALS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir estructura BALM a BAL_S</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>BALS_2_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir estructura BAL_S a BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>BAPIRET2_2_BALS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir estructura BAPIRET2 a BAL_S</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>CHANGE_HEADER_PARAMETER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Modificar parámetro de cabecera de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>CHECK_OBJ_SUBOBJ</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Verificar configuración Objeto/Subobjeto Log SLG0</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>CLEAR_ALV_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Liberar recursos ALV de mensajes de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_HEADER_PARAMETERS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar parámetros de Cabecera actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log tipo BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>HAS_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log contiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MODIFY_HEADER_PARAMETER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir o Modificar parámetro de cabecera de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MO_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MO_DD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Dynamic Documents: Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MS_HEADER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Cabecera de log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MT_ALV_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla para Log en ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MT_DB_MSG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de Log en DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MT_HEADER_PAR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Tabla con parámetros p.cabecera de log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MT_LOG_MSG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de Log nuevos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_DETLEVEL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Nivel de especificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_HEADER_PAR_NUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Número actual de los parámetros</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_LOG_HANDLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log de aplicación: Programa de control de un log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_LOG_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log de aplicación: Número de log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_SE61_DIALOG_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Texto Diálogo (DT) para SE61</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>MV_VIRTUAL_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indicador de Log Virtual</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>NEW_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nuevo Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>NEW_VLOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nuevo Log Virtual (No se graba en SLG1)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>READ_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Leer Log por Número de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>READ_LOG_BY_EXTNUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Leer Log por Datos Externos (se asume un solo Log)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>READ_LOG_BY_HANDLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Leer Log por Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>SET_USER_DETLEVEL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar Nivel de Determinación de Mensajes del usuario actual</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>SHOW_ALV_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar ALV con mensajes actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>SHOW_HEADER_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar Dynamic Document con parámetros de cabecera</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>SHOW_POPUP_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar Popup con mensajes actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>TTY_LOG_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla para Log en ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>TY_LOG_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Estructura para Log en ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>VALID_DETLEVEL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determinar DETLEVEL válido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_LOG</CLSNAME>
+     <CMPNAME>VALID_PROBCLASS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determinar PROBCLASS válido</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

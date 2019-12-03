@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Log de Aplicación Virtual</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>ADD_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAPIRET2 al Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>ADD_MSG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAL_S_MSG al Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>ADD_MSG_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje por variables al Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>CLEAR_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Liberar recursos ALV de mensajes de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>CONVERT_2_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir a Log DB (SLG1)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>GET_HEADER_PARAMETERS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar parámetros de Cabecera actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log tipo BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>HAS_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log contiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>MODIFY_HEADER_PARAMETER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir o Modificar parámetro de cabecera de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>SHOW_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar ALV de mensajes actuales en Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_VLOG</CLSNAME>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar Popup con mensajes actuales</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

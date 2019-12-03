@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Log de Aplicación DB (SLG1)</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAPIRET2 al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje tipo BAL_S_MSG al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir mensaje por variables al Log (pendiente grabación)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>CLEAR_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Liberar recursos ALV de mensajes de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_HEADER_PARAMETERS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar parámetros de Cabecera actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_LOGNUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Retorna el Número de Log interno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>GET_MESSAGES_BAPIRET2</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar mensajes del Log tipo BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>HAS_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log contiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>MODIFY_HEADER_PARAMETER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añadir o Modificar parámetro de cabecera de Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>RELOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recargar Log desde Base de Datos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Grabar mensajes nuevo Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>SET_HEADER_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar Texto Diálogo de SE61</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>SHOW_ALV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar ALV de mensajes actuales en Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_LOG</CLSNAME>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mostrar Popup con mensajes actuales</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
